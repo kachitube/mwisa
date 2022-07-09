@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)file:///C:/Users/joshua%20victory/Desktop/kachitube.website/kachitube.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <style>
+            .header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 55px;
+                position: fixed;
+                left: 0;
+                top: 0;
+                right: 0;
+                height: 80px;
+                background-color: white;
+
+            }
+            .left {
+                width: 120px;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                margin-left: 18px;
+               
+                background-color: rgb(243, 224, 224);
+                border-style: solid;
+                border-color: white;
+            }
+            .center {
+                flex: 1;
+                margin-left: 10px;
+                margin-right: 10px;
+                max-width: 1000px;
+                display: flex;
+                align-items: center;
+                width: 0;
+              
+            }
+            .right {
+                width: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-right: 70px;
+                flex-shrink: 0;
+                margin-right: 10px;
+                margin-right: 10px;
+            }
+            .log {
+                height: 24px;
+                padding-right: 15px;
+            }
+            .logo {
+                height: 36px;
+                padding-right: 18px;
+                display: flex;
+                border-radius: 6px;
+                border-color: rgb(247, 239, 239);
+                cursor: pointer;
+                width: 80px;
+            }
+            .mag {
+                display: flex;
+                height: 32px;
+                border-width: 1px;
+            }
+            .mic {
+                height: 20px;
+            }
+            .set {
+                height: 36px;
+                display: flex;
+                padding-left: -1px;
+                padding-right: 8px;
+                border-style: solid;
+                border-color:whitesmoke;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-width: 1px;
+                
+            }
+            .sin {
+                height: 30px;
+                padding-left: 1px;
+                padding-right: 10px;
+                margin-left: 5px;
+            }
+            .IN {
+                display: flex;
+                height: 28px;
+                padding-right: 10px;
+                align-items: center;
+                padding-left: 18px;
+                margin-right: 10px;
+                width: 50px;
+              
+                
+              
+            }
+            .combine {
+                display: flex;
+                border-color:rgb(214, 231, 228);
+                border-style: solid;
+                padding-top: 6px;
+                padding-bottom: 10px;
+                border-width: 1px;
+                padding-left: 20px;
+                padding-right: 40px;
+                align-items: center;
+                height: 30px;
+            }
+            .place {
+                flex: 1;
+                height: 30px;
+                padding-left: 10px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-right: 10px;
+                font-size: 20px;
+                font: arial, roboto;
+                width: 300px;
+                border: 1px;
+                border-style: solid;
+                border-color: rgb(235, 217, 217);
+            }
+            .mag {
+                display: flex;
+            padding-right: 10px;
+            height: 30px;
+            margin: 6px;
+            padding-left: 10px;
+            margin-right: 0;
+            border-style: solid;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-color: rgb(219, 208, 208);
+            border-width: 1px;
+            margin-left: -1px;
+            }
+            .mic {
+                margin-left: 8px;
+                display: flex;
+            padding-right: 10px;
+            height: 31px;
+            border-radius: 15px;
+            margin-right: 26px;
+            margin-left: 18px;
+
+            }
+            .vid {
+                display: flex;
+                height: 50px;
+                margin-right: 8px;
+                border-style: solid;
+                padding-left: 2px;
+                padding-right: 20px;
+                border-width: 1px;
+                border-color: whitesmoke ;
+            }
+            .kay {
+                display: flex;
+                height: 40px;
+                margin: 10px;
+                border-radius: 20px;
+                border-color: grey;
+                border-style: solid;
+                margin-right: 0;
+                margin-left: 0;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.3fr;
+                column-gap: 20px;
+                margin-right: 18px;
+                margin-left: 18px;
+                height: 50px;
+                align-items: center;
+                row-gap: 20px;
+            }
+            .names {
+                font-size: 24px;
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+            .NIM{
+                font-size: 24PX;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .AM {
+                font-size: 24PX;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .CHEC {
+                font-size: 24PX;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .DT {
+                font-size: 24PX;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .BAL {
+                font-size: 24PX;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+        </style>
+        <title>kachitube</title>
+    </head>
+    <body style="
+    height: 4000px;
+    padding-top: 90px;
+    ">
+        <div class="header">
+            <div class="left" style="background-color: white;">
+            <img class="log" src="./kachitube_files/download.png">
+            <img class="logo" src="./kachitube_files/logo1.jpg">
+            </div>
+            <div class="center" style="">
+             <input class="place" type="text" placeholder="search">
+                <img class="mag" src="./kachitube_files/magnifying-glass.png">
+                 <img class="mic" src="./kachitube_files/microphone.png">
+            </div>
+            <div class="right" style="background-color: rgb(238, 248, 238);">
+            <img class="vid" src="./kachitube_files/video.png">
+                <img class="set" src="./kachitube_files/settings.png">
+                <div class="combine">
+                    <img class="sin" src="./kachitube_files/user.png">
+                    <p class="IN">SIGN</p>
+                </div>
+                <img class="kay" src="./kachitube_files/kay.jpg">
+            </div>
+        </div>
+        <div class="grid">
+            <div class="names" style="
+            background-color: yellow;">NO</div>
+          <div class="NIM" style="
+          background-color: yellow;">
+          Name</div>
+          <div class="AM" style="
+          background-color: yellow;">amount</div>
+          <div class="CHEC" style="background-color: yellow;">check-box</div>
+          <div class="DT" style="background-color: yellow;">date</div>
+          <div class="BAL" style="background-color: yellow;">balance</div>
+          <div>1.</div>
+        <div>
+        Kelesia</div>
+        <div>k150.00</div>
+        <div><input type="checkbox"></div>
+        <div><input type="date"></div>
+        <div><input type="text" placeholder="balance"></div>
+        <div>2.</div>
+        <div>
+        PHIRI ANGELA</div>
+        <div>K120</div>
+        <div><input type="checkbox"></div>
+        <div><input type="date"></div>
+        <div><input type="text" placeholder="balance"></div>
+        <div>3.</div>
+        <div>
+        NKOLE DAVID</div>
+        <div>K120</div>
+        <div><input type="checkbox"></div>
+        <div><input type="date"></div>
+        <div><input type="text" placeholder="balance"></div>
+        <div>4.</div>
+      <div>
+      TEMBO YOYCE</div>
+      <div>K120</div>
+      <div><input type="checkbox"></div>
+      <div><input type="date"></div>
+      <div><input type="text" placeholder="balance"></div>
+      <div>5.</div>
+    <div>
+    MICHEAL</div>
+    <div>K120</div>
+    <div><input type="checkbox"></div>
+    <div><input type="date"></div>
+    <div><input type="text" placeholder="balance"></div>
+    <div>6.</div>
+  <div>
+  ENIYA</div>
+  <div>K100</div>
+  <div><input type="checkbox"></div>
+  <div><input type="date"></div>
+  <div><input type="text" placeholder="balance"></div>
+  <div>7.</div>
+<div>
+NATASHA HARA</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>8.</div>
+<div>
+MIRRIAM</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>9.</div>
+<div>
+MALAMBO NCHIMUNYA</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>10.</div>
+<div>
+MALAMBO FRANCIS</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>11.</div>
+<div>
+LISHOMWA SARAH</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>12.</div>
+<div>
+KANIKI MIRRIAM</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>13.</div>
+<div>
+WOMBA KALOZA</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>14.</div>
+<div>
+ATINESS</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>15.</div>
+<div>
+CHISANGA RABECCA</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>16.</div>
+<div>
+CHALWE ELIZABETH</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>17.</div>
+<div>
+CHILAMBWE ABRAHAM</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>18.</div>
+<div>
+CHANDA MAPALO</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>19.</div>
+<div>
+LWANDO RUTH</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>20.</div>
+<div>
+MULENGA FAVOUR</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>21.</div>
+<div>
+S. CHIPEGO</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>22.</div>
+<div>
+ZULU THERESA</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>23.</div>
+<div>
+MUTONGA LUCK</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>24.</div>
+<div>
+MUTONGA SAMUEL</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>25.</div>
+<div>
+MAINGA EARNEST</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>26.</div>
+<div>
+CHILUBA SYLVIA</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>27.</div>
+<div>
+MUKAMBA ONEILL</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>28.</div>
+<div>
+NAMANGOLWA PETER
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>29.</div>
+<div>
+KAZADI VIOLET
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>30.</div>
+<div>
+ZILILO
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>31.</div>
+<div>
+CHIPANGO JOHN
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>32.</div>
+<div>
+KAMINSA MICHELE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>33.</div>
+<div>
+MULENGA NATASHA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>34.</div>
+<div>
+SIMUYANDI 
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>35.</div>
+<div>
+WINNIE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>36.</div>
+<div>
+PATIENCE G9
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>37.</div>
+<div>
+PETRONELLA
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>38.</div>
+<div>
+EMMANUEL G7
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>39.</div>
+<div>
+SILOMBWANA LUKUMO
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>40.</div>
+<div>
+SHARON G9
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>41.</div>
+<div>
+SIKUFELE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>42.</div>
+<div>
+CHIMWEMWE G9
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>43.</div>
+<div>
+KEDRICK G9
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>44.</div>
+<div>
+SAMSON
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>45.</div>
+<div>
+MWIKISA CLARA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>46.</div>
+<div>
+TERERAI
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>47.</div>
+<div>
+MPUNDU CHRISTINE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>48.</div>
+<div>
+CHOLA MAPALO
+</div>
+<div>K200</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>49.</div>
+<div>
+SAKALA THELMA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>50.</div>
+<div>
+JOYCE G12
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>51.</div>
+<div>
+KABESA G12
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>52.</div>
+<div>
+DOROTHY
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>53.</div>
+<div>
+NCHINENYI
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>54.</div>
+<div>
+CHISANGA SHARON
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>55.</div>
+<div>
+CHIMULULI NACKSON
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>56.</div>
+<div>
+LUNGU DARLINGTON
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>57.</div>
+<div>
+DALITSO G7
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>58.</div>
+<div>
+MWANSA CHAMA
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>59.</div>
+<div>
+CHISANGA PETRONELLA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>60.</div>
+<div>
+MERCY G12
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>61.</div>
+<div>
+KEVIN G9
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>62.</div>
+<div>
+ESTHER G9
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>63.</div>
+<div>
+NJAVWA
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>64.</div>
+<div>
+MOONGa nichorus
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>65.</div>
+<div>
+GRACE G11
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>66.</div>
+<div>
+ BANDA GEORGE 
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>67.</div>
+<div>
+SEPISO
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>68.</div>
+<div>
+MAPALA SACRED
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>69.</div>
+<div>
+TEMBO ROMEO
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>70.</div>
+<div>
+BELINDA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>71.</div>
+<div>
+MUNKANTA NIZA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>72.</div>
+<div>
+HAMPANDE RECENT
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>73.</div>
+<div>
+SAM G12
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>74.</div>
+<div>
+CHINTU PATIENCE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>75.</div>
+<div>
+SIMALABALI ANNIE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>76.</div>
+<div>
+SIMALABALI BRIGHT
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>77.</div>
+<div>
+CHILESHE GEORGE
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>78.</div>
+<div>
+GABRIEL G7
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>79.</div>
+<div>
+NALUCHA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>80.</div>
+<div>
+MUNYINDA G9
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>81.</div>
+<div>
+BLESSINGS/BEATRICE 
+</div>
+<div>K240</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>82.</div>
+<div>
+HATIMBULA VANESSA
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>83.</div>
+<div>
+NAMOVWE FAVOUR 
+</div>
+<div>K100</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>84.</div>
+<div>
+MARGERET
+</div>
+<div>K190</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>85.</div>
+<div>
+GODFREY GCE 
+</div>
+<div>K150</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>86.</div>
+<div>
+THOBA KARREN 
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+<div>87.</div>
+<div>
+GOODSON G9 
+</div>
+<div>K120</div>
+<div><input type="checkbox"></div>
+<div><input type="date"></div>
+<div><input type="text" placeholder="balance"></div>
+        </div>
+    
+</body></html>
